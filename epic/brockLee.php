@@ -32,7 +32,6 @@
 				<ul>
 					<li>He is not good at guitar and is embarrassed to take lessons in public.</li>
 					<li>He has a dorm-mate who is always around and that makes Brock embarrassed to practice.</li>
-					<li></li>
 				</ul>
 			</li>
 		</ul>
