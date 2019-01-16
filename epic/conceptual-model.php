@@ -5,7 +5,7 @@
 	</head>
 	<body>
 		<h1>Conceptual Model</h1>
-		<h2>Entities & Attributes</h2>
+		<h3>Entities & Attributes</h3>
 		<ul>
 			<li>Category 1
 				<ul></ul>
@@ -20,7 +20,7 @@
 				<ul></ul>
 			</li>
 		</ul>
-		<h2>Relationships</h2>
+		<h3>Relationships</h3>
 		<ul>
 			<li></li>
 			<li></li>

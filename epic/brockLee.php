@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<title>Brock Lee's Persona</title>
@@ -18,7 +19,7 @@
 				<ul>
 					<li>Brock is not laid back. He likes work hard and is very concerned with what people think of him.</li>
 					<li>Brock likes to show off his talents and get as much attention as possible.</li>
-					<li>Brock regularly listens to many different genres of music.</li>
+					<li>Brock regularly listens to many different genres of music and knows some basics about the guitar.</li>
 				</ul>
 			</li>
 			<li>Needs:
