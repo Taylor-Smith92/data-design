@@ -25,13 +25,20 @@
 		</ul>
 		<h3>Favorite</h3>
 		<ul>
-			<li>favoriteId (PK)</li>
 			<li>favoriteUserId (FK)</li>
+			<li>favoritePostingId (FK)</li>
+		</ul>
+		<h3>Rating Value</h3>
+		<ul>
+			<li>ratingValueId (PK)</li>
+			<li>ratingValueUserId (FK)</li>
+			<li>ratingValuePostingId (FK)</li>
 		</ul>
 		<h2>Relationships</h2>
 		<ul>
-			<li>One user can have many postings.</li>
-			<li>One user can have many favorites.</li>
+			<li>One user can have many postings. (1 to n)</li>
+			<li>One user can have many favorites. </li>
+			<li>One user can have many ratingValues.</li>
 		</ul>
 	</body>
 </html>
