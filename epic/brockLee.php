@@ -1,4 +1,4 @@
-<html>
+<html lang="en">
 	<head>
 		<title>Brock Lee's Persona</title>
 		<meta charset="utf-8" />
