@@ -16,7 +16,7 @@
 			<li>Technology: Phone: Iphone 8; Laptop: MacBook; OS: High Sierra</li>
 			<li>Attitude:
 				<ul>
-					<li>Brock is laid back. He likes to toss a frisbee around the quad before class.</li>
+					<li>Brock is not laid back. He likes work hard and is very concerned with what people think of him.</li>
 					<li>Brock likes to show off his talents and get as much attention as possible.</li>
 					<li>Brock regularly listens to many different genres of music.</li>
 				</ul>
@@ -36,6 +36,8 @@
 			</li>
 		</ul>
 		<img src="brockLee.jpg" alt="Brock Lee playing guitar" />
+		<h2>User Story:</h2>
+		<p>Brock wants to learn to play a song on guitar, using ultimate-guitar.com.</p>
 	</body>
 
 </html>
