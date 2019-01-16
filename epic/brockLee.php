@@ -17,7 +17,7 @@
 			<li>Technology: Phone: Iphone 8; Laptop: MacBook; OS: High Sierra</li>
 			<li>Attitude:
 				<ul>
-					<li>Brock is not laid back. He likes work hard and is very concerned with what people think of him.</li>
+					<li>Brock is not laid back. He likes to work hard and is very concerned with what people think of him.</li>
 					<li>Brock likes to show off his talents and get as much attention as possible.</li>
 					<li>Brock regularly listens to many different genres of music and knows some basics about the guitar.</li>
 				</ul>
