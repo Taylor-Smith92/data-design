@@ -30,7 +30,7 @@
 		</ul>
 		<h3>Rating Value</h3>
 		<ul>
-			<li>ratingValueId (PK)</li>
+			<li>ratingValueContent (PK)</li>
 			<li>ratingValueUserId (FK)</li>
 			<li>ratingValuePostingId (FK)</li>
 		</ul>
