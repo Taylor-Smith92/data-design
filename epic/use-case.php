@@ -20,11 +20,15 @@
 			<li>A drop down window attempts to autofill the search terms.</li>
 			<li>Brock selects the song title he wants to search for from the autofill list.</li>
 			<li>Server returns the results of that search.</li>
-			<li>Brock reads through the results of user submitted postings and clicks the link for the one with the best rating.</li>
-			<li>The server returns the page for the chosen posting.</li>
+			<li>Brock reads through the results of user submitted posts and clicks the link for the one with the best rating.</li>
+			<li>Server returns the page for the chosen posting.</li>
 			<li>Brock begins looking over the page and notices that the heart in the "Favorite" button is not red, so he clicks it.</li>
-			<li>Server completes the request to add this posting to user's "My Tabs" folder.</li>
+			<li>Server completes the request to add this posting to Brock's "My Tabs" folder.</li>
 			<li>Brock can see that heart in the "Favorite" button is now red and that the "My Tabs" counter has increased by one.</li>
+			<li>At the end of the web page Brock sees that rating form on this post is also not filled in so he clicks the star representing the highest rating.</li>
+			<li>Server completes the request to add Brock's rating to the posts' average.</li>
+			<li>Brock can see that the stars in the rating form are now filled red to match his rating value.</li>
+
 		</ul>
 		<p><strong>Frequency of Use:</strong> Everyday</p>
 	</body>

@@ -37,9 +37,9 @@
 		</ul>
 		<h2>Relationships</h2>
 		<ul>
-			<li>One user can have many posts. (1 to n)</li>
-			<li>One user can have many favorites. (1 to n)</li>
-			<li>One user can have many ratings. (1 to n)</li>
+			<li>Many users can have many posts. (m to n)</li>
+			<li>Many users can have many favorites. (m to n)</li>
+			<li>Many users can have many ratings. (m to n)</li>
 			<li>One post can have many favorites. (1 to n)</li>
 			<li>One post can have many ratings. (1 to n)</li>
 		</ul>
