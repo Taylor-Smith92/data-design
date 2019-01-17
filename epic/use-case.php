@@ -6,8 +6,8 @@
 	</head>
 	<body>
 		<h1>Use Case</h1>
-		<p><strong>Title:</strong> Brock Learns a Song on Ultimate-Guitar.com</p>
-		<p><strong>Description:</strong> A user wants to learn the chord progression to a popular song posted on Ultimate-Guitar and have a quick way to access it.</p>
+		<p><strong>Title:</strong> Brock Favorites a Song on Ultimate-Guitar.com</p>
+		<p><strong>Description:</strong> A user wants to add the posting for a popular song to their "My Tabs" list on Ultimate-Guitar.</p>
 		<p><strong>Name of user & their role:</strong> Brock Lee; musician who recently created an Ultimate-Guitar account.</p>
 		<p><strong>Usage Pre-Conditions:</strong> Must have an internet capable device. Must have an account and be signed in.</p>
 		<p><strong>Post-Conditions:</strong> Ultimate-Guitar saves favorite posting to user's "My Tabs" folder.</p>
