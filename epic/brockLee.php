@@ -31,8 +31,8 @@
 			</li>
 			<li>Frustrations:
 				<ul>
-					<li>He is not good at guitar and is embarrassed to take lessons in public.</li>
-					<li>He has a dorm-mate who is always around and that makes Brock embarrassed to practice.</li>
+					<li>Other websites update rarely and have a limited selection.</li>
+					<li>He is busy with work and school and doesn't have time for traditional practice methods.</li>
 				</ul>
 			</li>
 		</ul>
