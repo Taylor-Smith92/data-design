@@ -10,29 +10,38 @@
 		<h3>User</h3>
 		<ul>
 			<li>userId (primary key)</li>
+			<li>userEmail</li>
 			<li>userName</li>
 			<li>userPassword</li>
-			<li>userEmail</li>
 		</ul>
-		<h3>Posting</h3>
+		<h3>Post</h3>
 		<ul>
-			<li>postingId (primary key)</li>
-			<li>postingUserId (foreign key)</li>
-			<li>postingType</li>
-			<li>postingDescription</li>
-			<li>postingUploadDate</li>
-			<li>postingUrl</li>
+			<li>postId (primary key)</li>
+			<li>postUserId (foreign key)</li>
+			<li>postDate</li>
+			<li>postDescription</li>
+			<li>postType</li>
+			<li>postUrl</li>
+		</ul>
+		<h3>Rating</h3>
+		<ul>
+			<li>ratingId (primary key)</li>
+			<li>ratingPostId (foreign key)</li>
+			<li>ratingUserId (foreign key)</li>
+			<li>ratingValue</li>
 		</ul>
 		<h3>Favorite (weak entity)</h3>
 		<ul>
+			<li>favoritePostId (foreign key)</li>
 			<li>favoriteUserId (foreign key)</li>
-			<li>favoritePostingId (foreign key)</li>
 		</ul>
 		<h2>Relationships</h2>
 		<ul>
-			<li>One user can have many postings. (1 to n)</li>
-			<li>Many postings can be favorites of many users. (m to n)</li>
-
+			<li>One user can have many posts. (1 to n)</li>
+			<li>One user can have many favorites. (1 to n)</li>
+			<li>One user can have many ratings. (1 to n)</li>
+			<li>One post can have many favorites. (1 to n)</li>
+			<li>One post can have many ratings. (1 to n)</li>
 		</ul>
 	</body>
 </html>
