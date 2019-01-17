@@ -43,5 +43,7 @@
 			<li>One post can have many favorites. (1 to n)</li>
 			<li>One post can have many ratings. (1 to n)</li>
 		</ul>
+		<h2>Entity Relationship Diagram</h2>
+		<img src="erd.jpg" alt="Entity Relationship Diagram for ultimate-guitar.com" width="50%" height="auto" />
 	</body>
 </html>
