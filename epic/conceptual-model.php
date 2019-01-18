@@ -23,9 +23,8 @@
 			<li>postType</li>
 			<li>postUrl</li>
 		</ul>
-		<h3>Rating</h3>
+		<h3>Rating (weak entity)</h3>
 		<ul>
-			<li>ratingId (primary key)</li>
 			<li>ratingPostId (foreign key)</li>
 			<li>ratingUserId (foreign key)</li>
 			<li>ratingValue</li>
