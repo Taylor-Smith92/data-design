@@ -18,6 +18,7 @@
 		<ul>
 			<li>postId (primary key)</li>
 			<li>postUserId (foreign key)</li>
+			<li>postContent</li>
 			<li>postDate</li>
 			<li>postDescription</li>
 			<li>postType</li>
@@ -27,12 +28,14 @@
 		<ul>
 			<li>ratingPostId (foreign key)</li>
 			<li>ratingUserId (foreign key)</li>
+			<li>ratingDate</li>
 			<li>ratingValue</li>
 		</ul>
 		<h3>Favorite (weak entity)</h3>
 		<ul>
 			<li>favoritePostId (foreign key)</li>
 			<li>favoriteUserId (foreign key)</li>
+			<li>favoriteDate</li>
 		</ul>
 		<h2>Relationships</h2>
 		<ul>
