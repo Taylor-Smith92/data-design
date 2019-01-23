@@ -30,4 +30,4 @@ VALUES (UNHEX("7a0c82c2f1c24f87a8392771fd53c454"), UNHEX("c5df619447b74d10bbb28e
 INSERT INTO favorite (favoritePostId, favoriteUserId, favoriteDate)
 VALUES (UNHEX("7a0c82c2f1c24f87a8392771fd53c454"), UNHEX("59d7a4512f5a45ee80142dad438528f1"), NOW());
 
-SELECT COUNT(*) FROM favorite WHERE favoritePostId = UNHEX("7a0c82c2f1c24f87a8392771fd53c454");
+SELECT COUNT(favoriteUserId) FROM favorite WHERE favoritePostId = UNHEX("7a0c82c2f1c24f87a8392771fd53c454");
