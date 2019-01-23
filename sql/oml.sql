@@ -21,6 +21,6 @@ DELETE FROM `user` WHERE userId = UNHEX("ea781c7050ad485ea8bba6db34d54ce0");
 SELECT userAtHandle, userEmail, userPhone  FROM `user` WHERE userId = UNHEX("c5df619447b74d10bbb28e544e62e439");
 
 SELECT user.userAtHandle, post.postDescription, post.postType, post.postContent, post.postDate
-FROM post INNER JOIN `user` on post.postUserId = user.userId WHERE postDescription = "that great song you like by that band you love";
+FROM post INNER JOIN `user` ON post.postUserId = user.userId WHERE postDescription = "that great song you like by that band you love";
 
 # `count the number of favorites`
