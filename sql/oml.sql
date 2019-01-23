@@ -23,7 +23,7 @@ DELETE FROM `user` WHERE userId = UNHEX("ea781c7050ad485ea8bba6db34d54ce0");
 SELECT userAtHandle, userEmail, userPhone  FROM `user` WHERE userId = UNHEX("c5df619447b74d10bbb28e544e62e439");
 
 SELECT user.userAtHandle, post.postDescription, post.postType, post.postContent, post.postDate
-FROM post INNER JOIN `user` ON post.postUserId = user.userId WHERE postDescription = "that great song you like by that band you love";
+FROM post INNER JOIN `user` ON post.postUserId = user.userId WHERE postId = UNHEX("7a0c82c2f1c24f87a8392771fd53c454");
 
 INSERT INTO favorite (favoritePostId, favoriteUserId, favoriteDate)
 VALUES (UNHEX("7a0c82c2f1c24f87a8392771fd53c454"), UNHEX("c5df619447b74d10bbb28e544e62e439"), NOW());
